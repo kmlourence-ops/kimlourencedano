@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Lourence Dano - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Portfo<span class="highlight">lio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container home-content">
+            <!-- 1. Image is on TOP -->
+            <div class="image">
+                <!-- Replace 'beach.png' with your actual profile picture path -->
+                <img src="image/portrait.png" width="250" alt="Profile Picture">
+            </div>
+            
+            <!-- 2. Text is on BOTTOM -->
+            <div class="text">
+                <h3>Hi, I'm</h3>
+                <h1>Kim Lourence Dano</h1>
+                <p>Junior Developer | CS Student</p>
+                <div class="hero-btns">
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate professional dedicated to building modern, responsive, and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I transform ideas into digital reality.</p>
+                    <p>My goal is to create seamless user experiences while writing clean, efficient code. I am always eager to learn new technologies and take on challenging projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="image/image1.png" alt="Calculator">
+                    <div class="project info">
+                        <h3>Calculator</h3>
+                        <p>A digital version of the traditional handheld calculator. Handles basic arithmetic to complex engineering equations.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="image/todolist.png" alt="To Do List App">
+                    <div class="project info">
+                        <h3>To Do List App</h3>
+                        <p>A productivity tool designed to help you organize your daily life and work responsibilities.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="image/beach.png" alt="Beach Booking">
+                    <div class="project info">
+                        <h3>Beach Booking</h3>
+                        <p>This specialized travel tool used to reserve spots or services at coastal destinations.</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="image/fishlog.png" alt="Fish Catch Log">
+                    <div class="project info">
+                        <h3>Fish Catch Log</h3>
+                        <p>This digital diary and data-tracking tool specifically designed for anglers.</p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <img src="image/alarm.png" alt="Alarm">
+                    <div class="project info">
+                        <h3>Alarm App</h3>
+                        <p>This Alarm Clock App is a time-management tool designed to wake you up or alert you at specific times. </p>
+                </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Let's work together on your next project.</p>
+            
+            <div class="social-links">
+                <a href="https://www.facebook.com/Kimaxxxxx" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/mik_lourence/" target="_blank" class="social-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:your.email@gmail.com" class="social-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Kim Lourence Dano. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+</body>
+</html>
